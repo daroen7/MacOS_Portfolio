@@ -226,57 +226,57 @@ const WORK_LOCATION = {
   kind: "folder",
   children: [
     // ▶ Project 1
-    // {
-    //   id: 5,
-    //   name: "Nike Ecommerce Website Application",
-    //   icon: "/images/folder.png",
-    //   kind: "folder",
-    //   position: "top-10 left-5", // icon position inside Finder
-    //   windowPosition: "top-[5vh] left-5", // optional: Finder window position
-    //   children: [
-    //     {
-    //       id: 1,
-    //       name: "Nike Project.txt",
-    //       icon: "/images/txt.png",
-    //       kind: "file",
-    //       fileType: "txt",
-    //       position: "top-5 left-10",
-    //       description: [
-    //         "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-    //         "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-    //         "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-    //         "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
-    //       ],
-    //     },
-    //     {
-    //       id: 2,
-    //       name: "nike.com",
-    //       icon: "/images/safari.png",
-    //       kind: "file",
-    //       fileType: "url",
-    //       href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
-    //       position: "top-10 right-20",
-    //     },
-    //     {
-    //       id: 4,
-    //       name: "nike.png",
-    //       icon: "/images/image.png",
-    //       kind: "file",
-    //       fileType: "img",
-    //       position: "top-52 right-80",
-    //       imageUrl: "/images/project-1.png",
-    //     },
-    //     {
-    //       id: 5,
-    //       name: "Design.fig",
-    //       icon: "/images/plain.png",
-    //       kind: "file",
-    //       fileType: "fig",
-    //       href: "https://google.com",
-    //       position: "top-60 right-20",
-    //     },
-    //   ],
-    // },
+    {
+      id: 5,
+      name: "Movie Website Application",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-10 left-5", // icon position inside Finder
+      windowPosition: "top-[5vh] left-5", // optional: Finder window position
+      children: [
+        {
+          id: 1,
+          name: "Nike Project.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
+            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
+            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
+            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+          ],
+        },
+        {
+          id: 2,
+          name: "nike.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          position: "top-10 right-10",
+        },
+        {
+          id: 4,
+          name: "nike.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-40 right-80",
+          imageUrl: "/images/project-1.png",
+        },
+        {
+          id: 5,
+          name: "Design.fig",
+          icon: "/images/plain.png",
+          kind: "file",
+          fileType: "fig",
+          href: "https://google.com",
+          position: "top-35 right-35",
+        },
+      ],
+    },
 
     // // ▶ Project 2
     // {

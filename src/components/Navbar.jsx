@@ -11,7 +11,7 @@ const Navbar = () => {
       <p className="font-bold">Syaihan's Portfolio</p>
 
       <ul>
-        {navLinks.map(({id, name, type}) => (
+        {navLinks.map(({ id, name, type }) => (
           <li key={id} onClick={() => openWindow(type)}>
             <p>{name}</p>
           </li>
@@ -28,7 +28,9 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <time>{dayjs().format("ddd MMM D h:mm A")}</time>
+      <time>
+        {dayjs().format("ddd MMM D h:mm A")}
+      </time>
     </div>
   </nav>
 }
