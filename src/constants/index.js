@@ -234,38 +234,35 @@ const WORK_LOCATION = {
       position: "top-10 left-5", // icon position inside Finder
       windowPosition: "top-[5vh] left-5", // optional: Finder window position
       children: [
-        // {
-        //   id: 1,
-        //   name: "Nike Project.txt",
-        //   icon: "/images/txt.png",
-        //   kind: "file",
-        //   fileType: "txt",
-        //   position: "top-5 left-10",
-        //   description: [
-        //     "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-        //     "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-        //     "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-        //     "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
-        //   ],
-        // },
-        // {
-        //   id: 2,
-        //   name: "nike.com",
-        //   icon: "/images/safari.png",
-        //   kind: "file",
-        //   fileType: "url",
-        //   href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
-        //   position: "top-10 right-10",
-        // },
-        // {
-        //   id: 4,
-        //   name: "nike.png",
-        //   icon: "/images/image.png",
-        //   kind: "file",
-        //   fileType: "img",
-        //   position: "top-40 right-80",
-        //   imageUrl: "/images/project-1.png",
-        // },
+        {
+          id: 1,
+          name: "Movie Project.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "The Movie Website Application is a sleek and modern platform designed for browsing and discovering the latest movies."
+          ],
+        },
+        {
+          id: 2,
+          name: "movies-drab.vercel.app",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://movies-drab.vercel.app/",
+          position: "top-15 right-25",
+        },
+        {
+          id: 4,
+          name: "movie-poster.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-40 right-80",
+          imageUrl: "/images/movie-poster.png",
+        },
         // {
         //   id: 5,
         //   name: "Design.fig",
