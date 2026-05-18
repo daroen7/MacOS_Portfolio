@@ -240,7 +240,7 @@ const WORK_LOCATION = {
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
-          position: "top-5 left-10",
+          position: "top-10 left-5",
           description: [
             "The Movie Website Application is a sleek and modern platform designed for browsing and discovering the latest movies."
           ],
@@ -252,7 +252,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "url",
           href: "https://movies-drab.vercel.app/",
-          position: "top-15 right-25",
+          position: "top-40 left-5",
         },
         {
           id: 4,
@@ -260,7 +260,7 @@ const WORK_LOCATION = {
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
-          position: "top-40 right-80",
+          position: "top-10 left-40",
           imageUrl: "/images/movie-poster.png",
         },
         // {
@@ -276,57 +276,48 @@ const WORK_LOCATION = {
     },
 
     // // ▶ Project 2
-    // {
-    //   id: 6,
-    //   name: "AI Resume Analyzer",
-    //   icon: "/images/folder.png",
-    //   kind: "folder",
-    //   position: "top-52 right-80",
-    //   windowPosition: "top-[20vh] left-7",
-    //   children: [
-    //     {
-    //       id: 1,
-    //       name: "AI Resume Analyzer Project.txt",
-    //       icon: "/images/txt.png",
-    //       kind: "file",
-    //       fileType: "txt",
-    //       position: "top-5 right-10",
-    //       description: [
-    //         "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-    //         "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-    //         "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-    //         "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
-    //       ],
-    //     },
-    //     {
-    //       id: 2,
-    //       name: "ai-resume-analyzer.com",
-    //       icon: "/images/safari.png",
-    //       kind: "file",
-    //       fileType: "url",
-    //       href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
-    //       position: "top-20 left-20",
-    //     },
-    //     {
-    //       id: 4,
-    //       name: "ai-resume-analyzer.png",
-    //       icon: "/images/image.png",
-    //       kind: "file",
-    //       fileType: "img",
-    //       position: "top-52 left-80",
-    //       imageUrl: "/images/project-2.png",
-    //     },
-    //     {
-    //       id: 5,
-    //       name: "Design.fig",
-    //       icon: "/images/plain.png",
-    //       kind: "file",
-    //       fileType: "fig",
-    //       href: "https://google.com",
-    //       position: "top-60 left-5",
-    //     },
-    //   ],
-    // },
+    {
+      id: 6,
+      name: "Todo Application",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-10 left-40",
+      windowPosition: "top-[20vh] left-7",
+      children: [
+        {
+          id: 1,
+          name: "Todo App Project.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-10 left-5",
+          description: [
+            "A clean daily task manager built to keep you focused and organized.",
+            "Easily add, complete, and delete tasks with a smooth and minimal interface.",
+            "Designed with a calm indigo palette and thoughtful typography for a pleasant everyday experience.",
+            "Built with React, Tailwind CSS v4, and Vite — fast, lightweight, and fully responsive.",
+          ],
+        },
+                {
+          id: 2,
+          name: "todo-app.vercel.app",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://todo-app-react-beta-two.vercel.app/",
+          position: "top-40 left-5",
+        },
+        {
+          id: 4,
+          name: "todo-app.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-10 left-40",
+          imageUrl: "/images/todo-app.png",
+        },
+      ],
+    },
 
     // // ▶ Project 3
     // {
