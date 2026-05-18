@@ -286,7 +286,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Todo App Project.txt",
+          name: "Todo Application Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
